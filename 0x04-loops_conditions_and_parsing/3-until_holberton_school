@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Display Holberton School 10x
+# Use Until Loop
+
+x=1
+until [ $x -gt 10 ]
+do
+    echo "Holberton School"
+    ((x++))
+done
