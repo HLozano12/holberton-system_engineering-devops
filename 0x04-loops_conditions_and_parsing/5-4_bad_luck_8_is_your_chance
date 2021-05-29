@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Loop from 1 - 10
+# display bad luck 4t Loop
+# display good luck 8th Loop
+# Hoberton School other iterations
+# While and if, elif, else use
+
+x=1
+
+while [ $((x++)) -le 10 ]; do if [ $x == 5 ]; then echo "bad luck";
+
+elif [ $x == 9 ]; then echo "good luck"; else echo "Holberton School"; fi; done
