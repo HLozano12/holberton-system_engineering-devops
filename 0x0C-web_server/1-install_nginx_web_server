@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install nginx and echo "Holberton School for the win!
+# Install nginx and echo "Holberton School"
 # per main file example
 
 
@@ -7,4 +7,4 @@ sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y install nginx
 sudo service nginx start
-sudo echo "Holberton School for the win!" | sudo tee /var/www/html/index.nginx-debian.html
+sudo echo "Holberton School" | sudo tee /var/www/html/index.nginx-debian.html
