@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # How to start Apache
 
-
 sudo service apache2 start
