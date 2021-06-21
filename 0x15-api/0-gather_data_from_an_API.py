@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     # Get the request from site
     user = requests.get('https://jsonplaceholder.typicode.com/users/{}'
-                        .format(arg[1]))
+                        .format(argv[1]))
     todo = requests.get('https://jsonplaceholder.typicode.com/users/{}/todos'
                         .format(argv[1]))
 
