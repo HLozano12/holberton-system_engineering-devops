@@ -25,8 +25,8 @@ if __name__ == "__main__":
             task_list.append(task.get('title'))
 
     # Print out the first line
-    print('Employee {} is done with task({}/{}):'
-          .format(name, count, len(tesk)))
+    print('Employee {} is done with tasks({}/{}):'
+          .format(name, count, len(task)))
 
     for task in task_list:
         print('\t {}'.format(task))
