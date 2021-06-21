@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     # obtain information from the json response
     name = user.json().get('name')
-    task = todo.jason()
+    task = todo.json()
 
     for task in task:
         if task.get('completed') is True:
