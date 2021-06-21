@@ -19,14 +19,14 @@ if __name__ == "__main__":
     name = user.json().get('name')
     task = todo.json()
 
-    for task in task:
+    for task in tasks:
         if task.get('completed') is True:
             count += 1
             task_list.append(task.get('title'))
 
     # Print out the first line
     print('Employee {} is done with tasks({}/{}):'
-          .format(name, count, len(task)))
+          .format(name, count, len(tasks)))
 
     for task in task_list:
         print('\t {}'.format(task))
